@@ -1,0 +1,107 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+html, body{
+    width:100%;
+    height: 100%;
+}
+
+#scene{
+	background: url(../img/planet_saturated.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 2s;
+}
+
+polygon{
+	transition: 2s;
+}
+polygon:hover  {
+	// -webkit-filter: url(#colorMeSaturate);
+   // stroke: green;
+   // fill: red;
+   opacity: 0;
+   transition: 0s;
+}
+
+
+
+#SubSahara, #SouthAm, #MiddleAm, 
+#USCanada, #North_Africa, #Europe, 
+#MiddleEast, #CentralAsia, #Russia, 
+#SEAsia, #India, #Australia, {
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+#Oceans{
+	// visibility: hidden;
+}
+.SubSahara_clicked{
+	transform-origin: 50% 63%;
+	transform: scale(2.5);
+}
+.SouthAm_clicked{
+	transform-origin: 10% 60%;
+	transform: scale(2.5);
+}
+.MiddleAm_clicked{
+
+}
+.USCanada_clicked{
+	transform-origin: 10% 30%;
+	transform: scale(3.0);
+}
+.North_Africa_clicked{
+	transform-origin: 50% 45%;
+	transform: scale(5.0);
+}
+.Europe_clicked{
+	transform-origin: 52% 23%;
+	transform: scale(4);
+}
+.MiddleEast_clicked{
+	transform-origin: 65% 38%;
+	transform: scale(3);
+}
+.CentralAsia_clicked{
+
+}
+.Russia_clicked{
+	transform-origin: 80% 8%;
+	transform: scale(3.0);
+}
+.SEAsia_clicked{
+
+}
+.India_clicked{
+
+}
+.Australia_clicked{
+
+}
