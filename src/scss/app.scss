@@ -21,9 +21,6 @@ TABLE OF CONTENTS:
 	box-sizing: border-box;
 }
 
-body {
-
-}
 
 html, body{
     width:100%;
@@ -35,6 +32,7 @@ html, body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	transition: 2s;
+	overflow:hidden;
 }
 
 polygon{
@@ -80,7 +78,7 @@ polygon[data-name="leaf"]{
 
 }
 .SouthAm_clicked{
-	transform-origin: 10% 60%;
+	transform-origin: 20% 80%;
 	transform: scale(2.5);
 
 }
@@ -183,7 +181,7 @@ polygon[data-name="leaf"]{
 		left: 0;
 		h1{
 			text-transform: uppercase;
-			font-family: Helvetica, sans-serif;
+			font-family: ‘Fira Sans’, sans-serif;
 			font-size: 4rem;
 			background-color: #5bb336;
 			width: 360px;
@@ -191,7 +189,7 @@ polygon[data-name="leaf"]{
 		}
 
 		p{
-			font-family: Helvetica, sans-serif;
+			font-family: ‘Fira Sans’, sans-serif;
 			font-size: 2rem;
 			margin: 20px 0 0 40px;
 
@@ -204,8 +202,66 @@ polygon[data-name="leaf"]{
 
 }
 .monkseal{
+	width: 100%;
+	height: 100%;
+	color: white;
+	.monkseal-bg{
+		background-color: #752c1c;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
 
+	}
+	svg{
+		width: 1000px;
+		height: 500px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 9999999;
+		margin-right: -40px;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.monkseal-image{
+		position: absolute;
+		top: 50%;
+		left: 75%;
+		transform: translate(-60%, -50%);
+		width: 750px;
+		z-index: 10000001;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #426de8;
+			width: 400px;
+			margin: 40px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 0 40px;
+
+			span{
+				background-color: #cadb27;
+			}
+		}
+	}
 }
+
 .komodo{
 
 }
@@ -216,8 +272,8 @@ polygon[data-name="leaf"]{
 
 }
 .spidermonkey{
-
 }
+
 .tiger{
 
 }
@@ -234,13 +290,13 @@ polygon[data-name="leaf"]{
 
 	}
 	svg{
-		width: 500px;
+		width: 1000px;
 		height: 500px;
 		position: absolute;
 		right: 0;
-		top: 0;
+		bottom: 0;
 		z-index: 9999999;
-		margin-top: -110px;	
+		margin-right: -40px;	
 	}
 	.exit{
 		position: absolute;
@@ -253,9 +309,9 @@ polygon[data-name="leaf"]{
 	.tortoise-image{
 		position: absolute;
 		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 820px;
+		left: 75%;
+		transform: translate(-60%, -50%);
+		width: 1050px;
 	}
 	.green-bottom{
 		position: absolute;
@@ -271,21 +327,19 @@ polygon[data-name="leaf"]{
 		left: 0;
 		h1{
 			text-transform: uppercase;
-			font-family: Helvetica, sans-serif;
+			font-family: ‘Fira Sans’, sans-serif;
 			font-size: 4rem;
 			background-color: #9ccc39;
 			width: 780px;
 			margin: 40px;
 		}
-
 		p{
-			font-family: Helvetica, sans-serif;
+			font-family: ‘Fira Sans’, sans-serif;
 			font-size: 2rem;
 			margin: 20px 0 0 40px;
 
 			span{
 				background-color: #cadb27;
-
 			}
 		}
 	}
