@@ -47,7 +47,9 @@ polygon:hover  {
    opacity: 0;
    transition: 0s;
 }
-
+polygon[data-name="leaf"]{
+	
+}
 
 
 #SubSahara, #SouthAm, #MiddleAm, 
@@ -132,9 +134,74 @@ polygon:hover  {
 
 }
 .redwolf{
-	color: blue;
-	background-color: blue;
-	opacity: .5;
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.redwolf-bg{
+		background-color: #e19259;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+
+	}
+	svg{
+		width: 500px;
+		height: 500px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 9999999;
+		margin-top: -110px;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.redwolf-image{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 820px;
+	}
+	.green-bottom{
+		position: absolute;
+		top: 68%;
+		left: 42%;
+		transform: translate(-50%, -50%);
+		z-index: 100000000;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: Helvetica, sans-serif;
+			font-size: 4rem;
+			background-color: #5bb336;
+			width: 360px;
+			margin: 40px;
+		}
+
+		p{
+			font-family: Helvetica, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 0 40px;
+
+			span{
+				background-color: #c9da24;
+
+			}
+		}
+	}
+
 }
 .monkseal{
 
@@ -155,7 +222,73 @@ polygon:hover  {
 
 }
 .tortoise{
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.tortoise-bg{
+		background-color: #6a9796;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
 
+	}
+	svg{
+		width: 500px;
+		height: 500px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 9999999;
+		margin-top: -110px;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.tortoise-image{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 820px;
+	}
+	.green-bottom{
+		position: absolute;
+		top: 68%;
+		left: 42%;
+		transform: translate(-50%, -50%);
+		z-index: 100000000;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: Helvetica, sans-serif;
+			font-size: 4rem;
+			background-color: #9ccc39;
+			width: 780px;
+			margin: 40px;
+		}
+
+		p{
+			font-family: Helvetica, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 0 40px;
+
+			span{
+				background-color: #cadb27;
+
+			}
+		}
+	}
 }
 .wallaby{
 
