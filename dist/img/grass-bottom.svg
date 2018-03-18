@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 969 242.39">
+  <defs>
+    <style>
+      .clsy-1 {
+        fill: #006837;
+      }
+
+      .clsy-2 {
+        fill: #006e39;
+      }
+
+      .clsy-3 {
+        fill: #00783c;
+      }
+
+      .clsy-4 {
+        fill: #008c43;
+      }
+
+      .clsy-5 {
+        fill: #229e3f;
+      }
+
+      .clsy-6 {
+        fill: #189b41;
+      }
+
+      .clsy-7 {
+        fill: #5bb336;
+      }
+
+      .clsy-8 {
+        fill: #5eb435;
+      }
+
+      .clsy-9 {
+        fill: #93c72d;
+      }
+
+      .clsy-10 {
+        fill: #a4cd2a;
+      }
+
+      .clsy-11 {
+        fill: #bcd626;
+      }
+
+      .clsy-12 {
+        fill: #c9da24;
+      }
+
+      .clsy-13 {
+        fill: #9ecb2b;
+      }
+
+      .clsy-14 {
+        fill: #9bca2b;
+      }
+
+      .clsy-15 {
+        fill: #80c030;
+      }
+
+      .clsy-16 {
+        fill: #6fba33;
+      }
+
+      .clsy-17 {
+        fill: #5fb435;
+      }
+
+      .clsy-18 {
+        fill: #81c030;
+      }
+
+      .clsy-19 {
+        fill: #4dae38;
+      }
+
+      .clsy-20 {
+        fill: #34a53c;
+      }
+
+      .clsy-21 {
+        fill: #2ba13e;
+      }
+
+      .clsy-22 {
+        fill: #42aa3a;
+      }
+
+      .clsy-23 {
+        fill: #0f9743;
+      }
+
+      .clsy-24 {
+        fill: #179a41;
+      }
+
+      .clsy-25 {
+        fill: #1e9d40;
+      }
+
+      .clsy-26 {
+        fill: #3ea83b;
+      }
+    </style>
+  </defs>
+  <title>grass-bottom</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <polygon class="clsy-1" points="835.94 32.98 766.52 138.26 872.97 127.85 835.94 32.98"/>
+      <polygon class="clsy-2" points="766.52 138.26 859.08 242.4 872.97 127.85 766.52 138.26"/>
+      <polygon class="clsy-1" points="872.97 125.54 969 161.4 859.08 240.08 872.97 125.54"/>
+      <polygon class="clsy-3" points="765.94 136.53 635.2 197.85 858.5 240.66 765.94 136.53"/>
+      <polygon class="clsy-4" points="635.2 197.85 617.85 102.97 765.94 136.53 635.2 197.85"/>
+      <polygon class="clsy-5" points="635.2 197.85 561.15 229.09 543.8 136.53 635.2 197.85"/>
+      <polygon class="clsy-6" points="617.85 102.97 543.8 136.53 635.2 197.85 617.85 102.97"/>
+      <polygon class="clsy-7" points="543.8 136.53 466.28 165.45 561.15 229.09 543.8 136.53"/>
+      <polygon class="clsy-8" points="561.15 229.09 445.45 226.78 466.28 165.45 561.15 229.09"/>
+      <polygon class="clsy-9" points="445.45 226.78 385.29 173.55 466.28 165.45 445.45 226.78"/>
+      <polygon class="clsy-10" points="385.29 173.55 342.48 226.78 445.45 226.78 385.29 173.55"/>
+      <polygon class="clsy-11" points="342.48 226.78 314.71 155.04 385.29 173.55 342.48 226.78"/>
+      <polygon class="clsy-12" points="342.48 226.78 241.82 226.78 314.71 155.04 342.48 226.78"/>
+      <polygon class="clsy-13" points="241.82 226.78 207.11 157.35 314.71 155.04 241.82 226.78"/>
+      <polygon class="clsy-14" points="207.11 157.35 264.96 89.09 314.71 155.04 207.11 157.35"/>
+      <polygon class="clsy-15" points="207.11 157.35 151.57 205.95 241.82 226.78 207.11 157.35"/>
+      <polygon class="clsy-16" points="151.57 205.95 138.84 128.43 207.11 157.35 151.57 205.95"/>
+      <polygon class="clsy-17" points="138.84 128.43 183.97 74.05 264.96 89.09 138.84 128.43"/>
+      <polygon class="clsy-18" points="264.96 89.09 207.11 157.35 138.84 128.43 264.96 89.09"/>
+      <polygon class="clsy-19" points="138.84 128.43 67.11 165.45 151.57 205.95 138.84 128.43"/>
+      <polygon class="clsy-20" points="67.11 165.45 42.81 234.87 151.57 205.95 67.11 165.45"/>
+      <polygon class="clsy-21" points="67.11 165.45 48.59 77.52 138.84 128.43 67.11 165.45"/>
+      <polygon class="clsy-22" points="48.59 77.52 183.97 74.05 138.84 128.43 48.59 77.52"/>
+      <polygon class="clsy-23" points="48.59 77.52 0 192.06 67.11 165.45 48.59 77.52"/>
+      <polygon class="clsy-24" points="0 192.06 42.81 234.87 67.11 165.45 0 192.06"/>
+      <polygon class="clsy-25" points="48.59 77.52 116.86 23.14 183.97 74.05 48.59 77.52"/>
+      <polygon class="clsy-26" points="116.86 23.14 173.55 0 183.97 74.05 116.86 23.14"/>
+      <polygon class="clsy-8" points="173.55 0 264.96 89.09 183.97 74.05 173.55 0"/>
+      <polygon class="clsy-1" points="835.5 33.27 617.5 103.28 767 138.78 835.5 33.27"/>
+      <polygon class="clsy-3" points="617.5 103.28 623.5 28.27 835.5 33.27 617.5 103.28"/>
+      <polygon class="clsy-4" points="543.5 136.28 513.5 44.27 617.5 103.28 543.5 136.28"/>
+      <polygon class="clsy-6" points="513.5 44.27 623.5 28.27 617.5 103.28 513.5 44.27"/>
+      <polygon class="clsy-7" points="513.5 44.27 402.5 44.27 543.5 136.28 513.5 44.27"/>
+      <polygon class="clsy-9" points="402.5 44.27 466.5 165.28 543.5 136.28 402.5 44.27"/>
+      <polygon class="clsy-9" points="402.5 44.27 346.5 100.28 440 115.17 402.5 44.27"/>
+      <polygon class="clsy-8" points="466.5 165.28 385.5 173.28 440.5 115.28 466.5 165.28"/>
+      <polygon class="clsy-10" points="385.5 173.28 346.5 100.28 440.5 115.28 385.5 173.28"/>
+      <polygon class="clsy-12" points="346.5 100.28 314.5 155.28 385.5 173.28 346.5 100.28"/>
+      <polygon class="clsy-12" points="346.5 100.28 278.5 23.27 402.5 44.27 346.5 100.28"/>
+      <polygon class="clsy-18" points="278.5 23.27 201.5 58.27 346.5 100.28 278.5 23.27"/>
+      <polygon class="clsy-17" points="346.5 100.28 314.5 155.28 201.5 58.27 346.5 100.28"/>
+      <polygon class="clsy-25" points="201.5 58.27 173.5 0.28 278.5 23.27 201.5 58.27"/>
+    </g>
+  </g>
+</svg>

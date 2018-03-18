@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 749 194.5">
+  <defs>
+    <style>
+      .clse-1 {
+        fill: #a9abac;
+      }
+
+      .clse-2 {
+        fill: #7b7d7f;
+      }
+
+      .clse-3 {
+        fill: #797b7d;
+      }
+
+      .clse-4 {
+        fill: #929496;
+      }
+
+      .clse-5 {
+        fill: #bbbcbd;
+      }
+
+      .clse-6 {
+        fill: #d1d1d2;
+      }
+
+      .clse-7 {
+        fill: #a4a5a6;
+      }
+
+      .clse-8 {
+        fill: #9a9c9d;
+      }
+
+      .clse-9 {
+        fill: #747678;
+      }
+
+      .clse-10 {
+        fill: #7c7e80;
+      }
+
+      .clse-11 {
+        fill: #787a7c;
+      }
+
+      .clse-12 {
+        fill: #b0b1b3;
+      }
+
+      .clse-13 {
+        fill: #e3e3e4;
+      }
+
+      .clse-14 {
+        fill: #f8f8f8;
+      }
+
+      .clse-15 {
+        fill: #c3c4c5;
+      }
+
+      .clse-16 {
+        fill: #a1a2a3;
+      }
+
+      .clse-17 {
+        fill: #626262;
+      }
+    </style>
+  </defs>
+  <title>stone</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_3" data-name="Layer 3">
+      <polygon class="clse-1" points="224.5 6 136.5 15 271.5 66 224.5 6"/>
+      <polygon class="clse-2" points="136.5 15 53.5 49 271.5 66 136.5 15"/>
+      <polygon class="clse-3" points="53.5 49 4.5 105 151.78 56.66 53.5 49"/>
+      <polygon class="clse-4" points="271.5 66 4.5 105 151.5 57 271.5 66"/>
+      <polygon class="clse-5" points="271.5 66 372.5 0 224.5 6 271.5 66"/>
+      <polygon class="clse-6" points="372.5 0 421.5 100 271.5 66 372.5 0"/>
+      <polygon class="clse-7" points="421.5 100 524.5 50 372.5 0 421.5 100"/>
+      <polygon class="clse-8" points="524.5 50 569.5 105 421.5 100 524.5 50"/>
+      <polygon class="clse-9" points="524.5 50 696.5 86 569.5 105 524.5 50"/>
+      <polygon class="clse-9" points="696.5 86 707.5 172 569.5 105 696.5 86"/>
+      <polygon class="clse-10" points="421.5 100 495.5 178 569.5 105 421.5 100"/>
+      <polygon class="clse-11" points="707.5 172 495.5 178 569.5 105 707.5 172"/>
+      <polygon class="clse-12" points="495.5 178 359.5 191 421.5 100 495.5 178"/>
+      <polygon class="clse-13" points="359.5 191 271.5 66 421.5 100 359.5 191"/>
+      <polygon class="clse-14" points="359.5 191 220.5 178 271.5 66 359.5 191"/>
+      <polygon class="clse-15" points="220.5 178 126.01 87.25 271.5 66 220.5 178"/>
+      <polygon class="clse-16" points="220.5 178 73.5 191 126.5 86 220.5 178"/>
+      <polygon class="clse-9" points="73.5 191 4.5 105 126.5 86 73.5 191"/>
+      <ellipse class="clse-12" cx="693" cy="158.1" rx="21" ry="12.6"/>
+      <ellipse class="clse-12" cx="714" cy="122.1" rx="12.6" ry="21" transform="translate(13.67 307.16) rotate(-24.51)"/>
+      <ellipse class="clse-12" cx="545.5" cy="139.1" rx="10.5" ry="12.6"/>
+      <ellipse class="clse-13" cx="456.5" cy="164.1" rx="10.5" ry="12.6"/>
+      <ellipse class="clse-13" cx="15.84" cy="115.58" rx="8.44" ry="14.37" transform="translate(-83.49 54.4) rotate(-50.57)"/>
+      <ellipse class="clse-16" cx="10.5" cy="124" rx="10.5" ry="7.5"/>
+      <ellipse class="clse-17" cx="392.5" cy="58.6" rx="10.5" ry="7.9"/>
+      <ellipse class="clse-17" cx="271.5" cy="131.6" rx="10.5" ry="7.9"/>
+      <ellipse class="clse-17" cx="309.5" cy="40.6" rx="10.5" ry="7.9"/>
+      <ellipse class="clse-17" cx="24.5" cy="131.6" rx="10.5" ry="7.9"/>
+      <ellipse class="clse-17" cx="226" cy="180.1" rx="16" ry="10.4"/>
+      <ellipse class="clse-15" cx="196" cy="177.6" rx="14" ry="7.9"/>
+      <ellipse class="clse-13" cx="209" cy="187.5" rx="17" ry="7"/>
+      <ellipse class="clse-10" cx="24.9" cy="141.1" rx="10.9" ry="6.4"/>
+      <circle class="clse-10" cx="667.5" cy="172" r="13.5"/>
+      <circle class="clse-16" cx="735.5" cy="177" r="13.5"/>
+      <circle class="clse-13" cx="702.5" cy="97" r="13.5"/>
+      <ellipse class="clse-14" cx="713.5" cy="154" rx="14.5" ry="28.5" transform="translate(100.08 549.63) rotate(-45)"/>
+      <ellipse class="clse-10" cx="702.5" cy="173.5" rx="21.5" ry="12"/>
+    </g>
+  </g>
+</svg>

@@ -88,7 +88,8 @@ polygon[data-name="leaf"]{
 
 }
 .MiddleAm_clicked{
-
+	transform-origin: 18% 50%;
+	transform: scale(4);
 
 }
 .USCanada_clicked{
@@ -619,7 +620,7 @@ polygon[data-name="leaf"]{
 			width: 910px;
 			position: absolute;
 			right: 0;
-			bottom: -15px;
+			top: -20px;
 			z-index: 9999999;
 		}
 		.exit{
@@ -631,12 +632,11 @@ polygon[data-name="leaf"]{
 			z-index: 10000000;
 		}
 		.spidermonkey-image{
+			width: 450px;
+			bottom: 0;
 			position: absolute;
-			top: 455px;
-			right: -137px;
-			transform: translate(-60%, -50%) rotate(5deg);
-			width: 550px;
-			z-index: 9999998;
+			right: 300px;
+			z-index: 9999998
 		}
 		.text{
 			position: absolute;
@@ -648,15 +648,16 @@ polygon[data-name="leaf"]{
 				font-family: ‘Fira Sans’, sans-serif;
 				font-size: 4rem;
 				background-color: #fbb03b;
-				width: 460px;
-				margin: 100px 0px 250px 40px;
+				width: 570px;
+				margin: 40px 0px 40px 40px;
 				padding: 10px;
 
 			}
+
 			p{
 				font-family: ‘Fira Sans’, sans-serif;
 				font-size: 2rem;
-				margin: 20px 0 100px 40px;
+				margin: 20px 0 60px 40px;
 				font-weight: 100;
 
 				span{
@@ -666,11 +667,75 @@ polygon[data-name="leaf"]{
 				}
 			}
 		}
-	}
+}
 
 .tiger{
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.tiger-bg{
+		background-color: #f9bd00;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
 
+	}
+
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.tiger-image{
+		position: absolute;
+		bottom: 200px;
+		left: 300px;
+		width: 720px;
+		z-index: 2;
+	}
+	svg{
+		position: absolute;
+		bottom: 100px;
+		left: 200px;
+		z-index: 1;
+		width: 1000px;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		left: 0;
+		top: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #006e39;
+			width: 490px;
+			margin: 100px 0 0 150px;
+			padding: 5px 20px;
+			margin-bottom: 200px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 60px 1100px;
+			font-weight: 100;
+			width: 100%;
+
+			span{
+				background-color: #c9da24;
+				font-weight: 400;
+				padding: 3px 5px;
+
+			}
+		}
+	}
 }
+
 .tortoise{
 	width: 100%;
 	height: 100%;
@@ -809,6 +874,70 @@ polygon[data-name="leaf"]{
 }
 .whiterhino{
 
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.whiterhino-bg{
+		background-color: #dfd334;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+
+	}
+	svg{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 1000px;
+
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.whiterhino-image{
+		position: absolute;
+		bottom: 140px;
+		left: 50px;
+		width: 900px;
+		z-index: 999999;
+
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		left: 0;
+		top: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #747678;
+			width: 490px;
+			margin: 40px 0 0 150px;
+			padding: 5px 20px;
+			margin-bottom: 200px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 60px 960px;
+			font-weight: 100;
+			width: 100%;
+
+			span{
+				background-color: #b0b1b3;
+				font-weight: 400;
+				padding: 3px 5px;
+
+			}
+		}
+	}
 }
 
 .wrap{
