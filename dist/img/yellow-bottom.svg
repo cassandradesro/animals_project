@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 921 369">
+  <defs>
+    <style>
+      .clst-1 {
+        fill: #fdbf46;
+      }
+
+      .clst-2 {
+        fill: #fec94b;
+      }
+
+      .clst-3 {
+        fill: #ffce4e;
+      }
+
+      .clst-4 {
+        fill: #ffd04f;
+      }
+
+      .clst-5 {
+        fill: #ffcf4e;
+      }
+
+      .clst-6 {
+        fill: #fdc248;
+      }
+
+      .clst-7 {
+        fill: #fec549;
+      }
+
+      .clst-8 {
+        fill: #fcba44;
+      }
+
+      .clst-9 {
+        fill: #faac3c;
+      }
+
+      .clst-10 {
+        fill: #faab3c;
+      }
+
+      .clst-11 {
+        fill: #f89d34;
+      }
+
+      .clst-12 {
+        fill: #f89932;
+      }
+
+      .clst-13 {
+        fill: #f68d2c;
+      }
+
+      .clst-14 {
+        fill: #f68c2b;
+      }
+
+      .clst-15 {
+        fill: #f47b22;
+      }
+
+      .clst-16 {
+        fill: #f27d2f;
+      }
+
+      .clst-17 {
+        fill: #f68728;
+      }
+
+      .clst-18 {
+        fill: #f2721c;
+      }
+
+      .clst-19 {
+        fill: #fcb943;
+      }
+
+      .clst-20 {
+        fill: #f89731;
+      }
+
+      .clst-21 {
+        fill: #f79630;
+      }
+    </style>
+  </defs>
+  <title>yellow-bottom</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_3" data-name="Layer 3">
+      <polygon class="clst-1" points="804 69 811 157 921 80 804 69"/>
+      <polygon class="clst-2" points="804 69 753 21 702 96 804 69"/>
+      <polygon class="clst-3" points="811 157 702 96 804 69 811 157"/>
+      <polygon class="clst-4" points="919 82 879 2 802 71 919 82"/>
+      <polygon class="clst-5" points="881 0 753 21 804 69 881 0"/>
+      <polygon class="clst-6" points="753 21 637 21 702 96 753 21"/>
+      <polygon class="clst-7" points="811 157 664 202 702 96 811 157"/>
+      <polygon class="clst-8" points="664 202 534 133 702 96 664 202"/>
+      <polygon class="clst-8" points="534 133 637 21 702 96 534 133"/>
+      <polygon class="clst-9" points="637 21 405 69 534 133 637 21"/>
+      <polygon class="clst-10" points="534 133 405 261 664 202 534 133"/>
+      <polygon class="clst-11" points="405 261 337 149 534 133 405 261"/>
+      <polygon class="clst-12" points="337 149 405 69 534 133 337 149"/>
+      <polygon class="clst-13" points="337 149 201 270 405 261 337 149"/>
+      <polygon class="clst-14" points="337 149 215 80 405 69 337 149"/>
+      <polygon class="clst-15" points="215 80 201 177 337 149 215 80"/>
+      <polygon class="clst-16" points="201 177 201 270 337 149 201 177"/>
+      <polygon class="clst-17" points="201 270 303 360 405 261 201 270"/>
+      <polygon class="clst-18" points="303 360 97 360 201 270 303 360"/>
+      <polygon class="clst-15" points="201 177 68 149 201 270 201 177"/>
+      <polygon class="clst-18" points="68 149 215 80 201 177 68 149"/>
+      <polygon class="clst-18" points="201 270 68 281 68 149 201 270"/>
+      <polygon class="clst-15" points="201 270 97 360 68 281 201 270"/>
+      <polygon class="clst-16" points="68 281 0 369 97 360 68 281"/>
+      <polygon class="clst-4" points="921 80 795 215 811 157 921 80"/>
+      <polygon class="clst-5" points="795 215 664 202 811 157 795 215"/>
+      <polygon class="clst-19" points="795 215 492 281 664 202 795 215"/>
+      <polygon class="clst-20" points="492 281 405 261 664 202 492 281"/>
+      <polygon class="clst-21" points="492 281 303 360 405 261 492 281"/>
+    </g>
+  </g>
+</svg>

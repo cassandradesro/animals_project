@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 905 213">
+  <defs>
+    <style>
+      .clsq-1 {
+        fill: #a67c52;
+      }
+
+      .clsq-2 {
+        fill: #a5754a;
+      }
+
+      .clsq-3 {
+        fill: #c2986a;
+      }
+
+      .clsq-4 {
+        fill: #b88e61;
+      }
+
+      .clsq-5 {
+        fill: #fadcb2;
+      }
+
+      .clsq-6 {
+        fill: #dfbb8e;
+      }
+
+      .clsq-7 {
+        fill: #c3996a;
+      }
+
+      .clsq-8 {
+        fill: #b58b5e;
+      }
+
+      .clsq-9 {
+        fill: #d2ab7d;
+      }
+
+      .clsq-10 {
+        fill: #a87e54;
+      }
+
+      .clsq-11 {
+        fill: #ac8257;
+      }
+    </style>
+  </defs>
+  <title>sand-bottom</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <polygon class="clsq-1" points="727 0 825 29 611 86 727 0"/>
+      <polygon class="clsq-2" points="825 29 905 120 611 86 825 29"/>
+      <polygon class="clsq-3" points="611 86 551 186 443 74 611 86"/>
+      <polygon class="clsq-4" points="443 74 727 0 611 86 443 74"/>
+      <polygon class="clsq-5" points="443 74 295 74 349 186 443 74"/>
+      <polygon class="clsq-3" points="551 186 349 186 443 74 551 186"/>
+      <polygon class="clsq-6" points="349 186 150 213 295 74 349 186"/>
+      <polygon class="clsq-7" points="150 213 163 74 295 74 150 213"/>
+      <polygon class="clsq-8" points="163 74 0 120 150 213 163 74"/>
+      <polygon class="clsq-9" points="163 74.5 349 0.5 443 74.5 163 74.5"/>
+      <polygon class="clsq-10" points="905 120 676 153 611 86 905 120"/>
+      <polygon class="clsq-11" points="676 153 551 186 611 86 676 153"/>
+    </g>
+  </g>
+</svg>

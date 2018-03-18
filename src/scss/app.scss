@@ -25,10 +25,11 @@ TABLE OF CONTENTS:
 html, body{
     width:100%;
     height: 100%;
+    overflow: hidden;
 }
 
 #scene{
-	background: url(../img/planet_saturated.png);
+	background: url(../img/worlddarker.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	transition: 2s;
@@ -45,8 +46,9 @@ polygon:hover  {
    opacity: 0;
    transition: 0s;
 }
-polygon[data-name="leaf"]{
-	
+polygon[data-name="leaf"]{	
+
+	// fill: red;
 }
 
 
@@ -64,11 +66,14 @@ polygon[data-name="leaf"]{
 }
 .animal-page{
 	display: none;
+	overflow: hidden;
+	transition: 0.3s;
 	&.active{
 		display: block;
 		width: 100%;
 		height: 100%;
 		position: absolute;
+		transition: 0.3s;
 		z-index: 9999999;
 	}
 }
@@ -102,12 +107,13 @@ polygon[data-name="leaf"]{
 
 }
 .MiddleEast_clicked{
-	transform-origin: 65% 38%;
-	transform: scale(3.0);
+	transform-origin: 66% 38%;
+    transform: scale(4);
 
 }
 .CentralAsia_clicked{
-
+	transform-origin: 90% 45%;
+	transform: scale(3);
 }
 .Russia_clicked{
 	transform-origin: 80% 8%;
@@ -115,22 +121,165 @@ polygon[data-name="leaf"]{
 
 }
 .SEAsia_clicked{
-
+	transform-origin: 100% 75%;
+	transform: scale(2.0);
 
 }
 .India_clicked{
-
+	transform-origin: 75% 50%;
+	transform: scale(3.5);
 }
 .Australia_clicked{
-
+	transform-origin: 100% 85%;
+	transform: scale(3.5);
 }
 
 .africanlion{
 
+
+		width: 100%;
+		height: 100%;
+		color: white;
+		// opacity: .5;
+		.africanlion-bg{
+			background-color: #144c42;
+			opacity: 0.8;
+			width: 100%;
+			height: 100%;
+
+		}
+		.yellow-tree{
+			width: 600px;
+			height: 640px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-top: -160px;	
+		}
+		.yellow-bottom{
+			position: absolute;
+			bottom: -100px;
+			left: -100px;
+			width: 75%;
+
+		}
+		.exit{
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			width: 50px;
+			height: 50px;
+			z-index: 10000000;
+		}
+		.africanlion-image{
+			position: absolute;
+			top: 50%;
+			left: 48%;
+			transform: translate(-60%, -50%);
+			width: 600px;
+			z-index: 999999;
+
+		}
+		.text{
+			position: absolute;
+			z-index: 9999999;
+			right: 0;
+			top: 0;
+			h1{
+				text-transform: uppercase;
+				font-family: ‘Fira Sans’, sans-serif;
+				font-size: 4rem;
+				background-color: #f2721c;
+				width: 500px;
+				margin: 40px 0 0 -150px;
+				padding: 0 20px;
+				margin-bottom: 200px;
+			}
+			p{
+				font-family: ‘Fira Sans’, sans-serif;
+				font-size: 2rem;
+				margin: 60px 60px;
+				font-weight: 100;
+
+				span{
+					background-color: #fcba44;
+					font-weight: 400;
+					padding: 3px 5px;
+
+				}
+			}
+		}
 }
+
 .hyena{
 
+
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.hyena-bg{
+		background-color: #6a9796;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+
+	}
+	svg{
+		width: 1000px;
+		height: 640px;
+		position: absolute;
+		right: -139px;
+		bottom: 106px;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.hyena-image{
+		position: absolute;
+		top: 50%;
+		left: 75%;
+		transform: translate(-60%, -50%);
+		width: 400px;
+		z-index: 999999;
+
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #402159;
+			width: 590px;
+			margin: 40px;
+			padding: 0 20px;
+			margin-bottom: 300px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 80px 40px;
+			font-weight: 100;
+
+			span{
+				background-color: #9043b6;
+				font-weight: 400;
+				padding: 3px 5px;
+
+			}
+		}
+	}
 }
+
 .redwolf{
 	width: 100%;
 	height: 100%;
@@ -214,7 +363,6 @@ polygon[data-name="leaf"]{
 	}
 	svg{
 		width: 1000px;
-		height: 500px;
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -231,8 +379,8 @@ polygon[data-name="leaf"]{
 	}
 	.monkseal-image{
 		position: absolute;
-		top: 50%;
-		left: 75%;
+		top: 55%;
+		left: 65%;
 		transform: translate(-60%, -50%);
 		width: 750px;
 		z-index: 10000001;
@@ -249,30 +397,276 @@ polygon[data-name="leaf"]{
 			background-color: #426de8;
 			width: 400px;
 			margin: 40px;
+			padding: 10px;
 		}
 		p{
 			font-family: ‘Fira Sans’, sans-serif;
 			font-size: 2rem;
-			margin: 20px 0 0 40px;
+			margin: 20px 0 50px 40px;
+			font-weight: 100;
 
 			span{
-				background-color: #cadb27;
+				background-color: #6a90e5;
+				padding: 10px;
+				font-weight: 400;
 			}
 		}
 	}
 }
 
 .komodo{
+	width: 100%;
+	height: 100%;
+	color: white;
+	.komodo-bg{
+		background-color: #1d9197;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
 
+	}
+	svg{
+		width: 1000px;
+		position: absolute;
+		right: 180px;
+		bottom: 140px;
+		z-index: 9999999;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.komodo-image{
+		position: absolute;
+		top: 55%;
+		left: 65%;
+		transform: translate(-60%, -50%);
+		width: 750px;
+		z-index: 10000001;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #b58b5e;
+			width: 620px;
+			margin: 40px;
+			padding: 10px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 50px 40px;
+			font-weight: 100;
+
+			span{
+				background-color: #dfbb8e;
+				padding: 10px;
+				font-weight: 400;
+			}
+		}
+	}
 }
+
 .orangutan{
+	width: 100%;
+	height: 100%;
+	color: white;
+	.orangutan-bg{
+		background-color: #f4a53e;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
 
+	}
+	svg{
+		width: 800px;
+		position: absolute;
+		right: 0;
+		top: -15px;
+
+		z-index: 9999999;
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.orangutan-image{
+		position: absolute;
+		top: 500px;
+		right: -100px;
+		transform: translate(-60%, -50%) rotate(10deg);
+		width: 550px;
+		z-index: 9999998;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #4c8508;
+			width: 430px;
+			margin: 100px 0px 250px 40px;
+			padding: 10px;
+
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 100px 40px;
+			font-weight: 100;
+
+			span{
+				background-color: #65b20a;
+				padding: 10px;
+				font-weight: 400;
+			}
+		}
+	}
 }
-.panda{
 
+.panda{
+	width: 100%;
+	height: 100%;
+	color: white;
+	.panda-bg{
+		background-color: #c83f3b;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+	}
+	svg{
+		width: 910px;
+		position: absolute;
+		right: 0;
+		bottom: -15px;
+		z-index: 9999999;
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.panda-image{
+		position: absolute;
+		top: 455px;
+		right: -137px;
+		transform: translate(-60%, -50%) rotate(5deg);
+		width: 550px;
+		z-index: 9999998;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #c1995f;
+			width: 460px;
+			margin: 100px 0px 250px 40px;
+			padding: 10px;
+
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 100px 40px;
+			font-weight: 100;
+
+			span{
+				background-color: #e3be71;
+				padding: 10px;
+				font-weight: 400;
+			}
+		}
+	}
 }
 .spidermonkey{
-}
+	
+		width: 100%;
+		height: 100%;
+		color: white;
+		.spidermonkey-bg{
+			background-color: #86342e;
+			opacity: 0.8;
+			width: 100%;
+			height: 100%;
+		}
+		svg{
+			width: 910px;
+			position: absolute;
+			right: 0;
+			bottom: -15px;
+			z-index: 9999999;
+		}
+		.exit{
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			width: 50px;
+			height: 50px;
+			z-index: 10000000;
+		}
+		.spidermonkey-image{
+			position: absolute;
+			top: 455px;
+			right: -137px;
+			transform: translate(-60%, -50%) rotate(5deg);
+			width: 550px;
+			z-index: 9999998;
+		}
+		.text{
+			position: absolute;
+			z-index: 9999999;
+			top: 0;
+			left: 0;
+			h1{
+				text-transform: uppercase;
+				font-family: ‘Fira Sans’, sans-serif;
+				font-size: 4rem;
+				background-color: #fbb03b;
+				width: 460px;
+				margin: 100px 0px 250px 40px;
+				padding: 10px;
+
+			}
+			p{
+				font-family: ‘Fira Sans’, sans-serif;
+				font-size: 2rem;
+				margin: 20px 0 100px 40px;
+				font-weight: 100;
+
+				span{
+					background-color: #ffd33b;
+					padding: 10px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
 
 .tiger{
 
@@ -340,17 +734,86 @@ polygon[data-name="leaf"]{
 
 			span{
 				background-color: #cadb27;
+				padding: 3px;
 			}
 		}
 	}
 }
 .wallaby{
 
+	width: 100%;
+	height: 100%;
+	color: white;
+	// opacity: .5;
+	.wallaby-bg{
+		background-color: #86c24b;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+
+	}
+	svg{
+		width: 1000px;
+		height: 500px;
+		position: absolute;
+		right: 100px;
+		bottom: 200px;
+		z-index: 1;	
+	}
+	.exit{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 10000000;
+	}
+	.wallaby-image{
+		position: absolute;
+		right: 200px;
+		bottom: 200px;
+		width: 550px;
+		z-index: 2;
+	}
+	.sand-front{
+		position: absolute;
+		right: 170px;
+		bottom: 160px;
+		z-index: 3;
+	}
+	.text{
+		position: absolute;
+		z-index: 9999999;
+		top: 0;
+		left: 0;
+		h1{
+			text-transform: uppercase;
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 4rem;
+			background-color: #848484;
+			width: 540px;
+			padding:10px;
+			margin: 100px 40px;
+		}
+		p{
+			font-family: ‘Fira Sans’, sans-serif;
+			font-size: 2rem;
+			margin: 20px 0 100px 40px;
+
+			span{
+				background-color: #cecece;
+				padding: 3px;
+			}
+		}
+	}
 }
 .whiterhino{
 
 }
 
+.wrap{
+	width: 640px;
+}
 
 
 

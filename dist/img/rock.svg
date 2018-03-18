@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400.89 484.76">
+  <defs>
+    <style>
+      .clsq-1 {
+        fill: #bebebe;
+      }
+
+      .clsq-2 {
+        fill: #b4b4b4;
+      }
+
+      .clsq-3 {
+        fill: #848484;
+      }
+
+      .clsq-4 {
+        fill: gray;
+      }
+
+      .clsq-5 {
+        fill: #c4c4c4;
+      }
+
+      .clsq-6 {
+        fill: #dfdfdf;
+      }
+
+      .clsq-7 {
+        fill: #cecece;
+      }
+
+      .clsq-8 {
+        fill: #b0b0b0;
+      }
+
+      .clsq-9 {
+        fill: #949494;
+      }
+    </style>
+  </defs>
+  <title>rock</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_3" data-name="Layer 3">
+      <g>
+        <polygon class="clsq-1" points="87.75 69.56 187.54 168.41 12.04 203.19 87.75 69.56"/>
+        <polygon class="clsq-2" points="187.54 168.41 187.54 322.17 12.04 203.19 187.54 168.41"/>
+        <polygon class="clsq-3" points="187.54 322.17 0 448.47 12.04 203.19 187.54 322.17"/>
+        <polygon class="clsq-4" points="187.54 322.17 204.75 417.35 0 448.47 187.54 322.17"/>
+        <polyline class="clsq-5" points="204.75 0 88.61 70.47 187.54 168.41 204.75 0"/>
+        <polyline class="clsq-6" points="204.75 0 316.58 148.27 187.54 168.41 204.75 0"/>
+        <polygon class="clsq-7" points="316.58 148.27 187.54 322.17 187.54 168.41 316.58 148.27"/>
+        <polygon class="clsq-8" points="316.58 148.27 350.99 334.98 187.54 322.17 316.58 148.27"/>
+        <polygon class="clsq-9" points="350.99 334.98 204.75 417.35 187.54 322.17 350.99 334.98"/>
+        <polygon class="clsq-4" points="350.99 334.98 400.89 439.32 204.75 417.35 350.99 334.98"/>
+        <polygon class="clsq-9" points="400.89 439.32 0 448.47 204.75 417.35 400.89 439.32"/>
+      </g>
+      <polygon class="clsq-1" points="164.33 266.38 225.52 323.35 117.91 343.39 164.33 266.38"/>
+      <polygon class="clsq-2" points="225.52 323.35 225.52 411.96 117.91 343.39 225.52 323.35"/>
+      <polygon class="clsq-3" points="225.52 411.96 110.53 484.76 117.91 343.39 225.52 411.96"/>
+      <polygon class="clsq-4" points="225.52 411.96 236.07 466.82 110.53 484.76 225.52 411.96"/>
+      <polygon class="clsq-5" points="225.52 323.35 236.07 226.29 164.86 266.91 225.52 323.35"/>
+      <polygon class="clsq-6" points="236.07 226.29 304.64 311.74 225.52 323.35 236.07 226.29"/>
+      <polygon class="clsq-7" points="304.64 311.74 225.52 411.96 225.52 323.35 304.64 311.74"/>
+      <polygon class="clsq-8" points="304.64 311.74 325.74 419.35 225.52 411.96 304.64 311.74"/>
+      <polygon class="clsq-9" points="325.74 419.35 236.07 466.82 225.52 411.96 325.74 419.35"/>
+      <polygon class="clsq-4" points="325.74 419.35 356.33 479.48 236.07 466.82 325.74 419.35"/>
+      <polygon class="clsq-9" points="356.33 479.48 110.53 484.76 236.07 466.82 356.33 479.48"/>
+    </g>
+  </g>
+</svg>
