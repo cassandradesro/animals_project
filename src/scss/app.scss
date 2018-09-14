@@ -11,9 +11,50 @@ TABLE OF CONTENTS:
 
 ==============================================
 */
-
+@font-face {
+	font-family: "dinotype";
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/DinoTypeDotsClean.ttf') format("truetype"),
+		url('../fonts/Pretty-Pen-Regular.otf') format("opentype");
+}
 @import 'reset';
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$breakpoint-mobile: 410px;
+@media (max-width: $breakpoint-mobile) {
+    .mobile-disclaimer{
+        background-color: white;
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        z-index: 13;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        p{
+            margin-bottom: 25px;
+            letter-spacing: 3px;
+            line-height: 25px;
+        }
+        img{
+            width: 100px;
+        }
+    }
+}
+@media (min-width: $breakpoint-mobile) {
+
+    .mobile-disclaimer{
+        display: none;
+    }
+}
 
 /* 1. Main Layout ================================= */
 
@@ -27,7 +68,15 @@ html, body{
     height: 100%;
     overflow: hidden;
 }
+.instructions{
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	font-family: ‘Fira Sans’, sans-serif;
 
+}
 #scene{
 	background: url(../img/worlddarker.png);
 	background-size: cover;
